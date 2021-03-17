@@ -1,7 +1,7 @@
 var myClothes = {
-    hat = "Fedora",
-    shirt = "nike",
-    shoes = "shoes"
+    hat: "Fedora",
+    shirt: "nike",
+    shoes: "shoes"
 };
 
 function myFunction(myObj) {
@@ -14,4 +14,4 @@ function myFunction(myObj) {
 
 console.log(myFunction());
 
-module.exports = myFunction(myClothes);
+module.exports = { myClothes, myFunction };

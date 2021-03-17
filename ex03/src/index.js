@@ -13,6 +13,6 @@ function myFunction(myObj) {
 
 }
 
-console.log(myFunction(myObj));
+console.log(myFunction());
 
-module.exports = {myFunction(myFood)};
+module.exports = {myFood, myFunction};
